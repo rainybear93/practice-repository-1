@@ -1,0 +1,13 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+}
+#rngLabel{
+    font-size: 3em;
+ }
+#rngBtn{
+    font-size: 2em;
+    padding: 10px 20px;
+border-radius: 5px;
+}
