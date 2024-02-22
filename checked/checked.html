@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checked.css">
+</head>
+<body>
+    <h1>Odaberite vašu narudžbu</h1><br>
+<input type = "radio" id="meniOpcija1" name="meni" class="meni">
+<label for = "meniOpcija1">Veliki svinjski GIROS.</label><br>
+<input type = "radio" id="meniOpcija2" name="meni" class="meni">
+<label for = "meniOpcija2">Srednji svinjski giros.</label><br>
+<input type = "radio" id="meniOpcija3" name="meni" class="meni">
+<label for = "meniOpcija3">Mali svinjski giros.</label><br>
+<br>
+
+
+<button type="submit" id="mysubmit">Poslati narudžbu</button><br>
+
+<p id="narudzba_rezultat"></p>
+
+<label id="listaPriloga">Odaberite priloge:</label><br>
+
+<input type="checkbox" id="prilog4" name = "prilog" value="Pomfrit">
+    <label for = "prilog4">Pomfrit</label><br>
+<input type = "checkbox" id="prilog1" name = "prilog" value="Paradaiz">
+<label for = "prilog1">Paradaiz</label>
+<input type = "checkbox" id="prilog2" name = "prilog" value="Zaziki">
+<label for = "prilog2">Zaziki</label>
+<input type = "checkbox" id="prilog3" name = "prilog" value ="Luk">
+<label for = "prilog3">Luk</label><br>
+
+<button type="submit" id="prilog_submit" onclick="getValue()">Prilozi odabrani</button><br>
+<label id="narudžba_rezultat"></label><br>
+
+
+<p id="zahvala">Hvala vam na povjerenju i prijatno.</p>
+  
+  <script src="checked.js"></script>  
+</body>
+</html>
