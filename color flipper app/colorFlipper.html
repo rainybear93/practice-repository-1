@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Fliper app,as per Tech With Tim, ytchannel</title>
+    <link rel="stylesheet" href="colorFlipper.css">
+<style>
+     body{
+        background-color: blueviolet;
+     }
+     #btn1{
+        background-color: green;
+        
+        }
+    #btn2{        
+        background-color: red;
+        
+        }
+    #btn3{       
+        background-color: blue;
+          }
+     button {
+            border-radius: 10px;
+            font-size: 20px;
+            width: 100px; height: 70px;
+            margin: 5px;
+        }
+</style>
+
+</head>
+<body>
+    
+    <h1>Color Flipper</h1>
+    <button id="btn1" onclick="setColor('green')" >Green</button>
+    <button id="btn2"onclick="setColor('red')">Red</button>
+    <button id="btn3" onclick="setColor('blue')">Blue</button>
+    <button id="btn4" onclick="randomColor()">Random</button>
+
+    <script src="colorFlipper.js"></script>
+</body>
+</html>
