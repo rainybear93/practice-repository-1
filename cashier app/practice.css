@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(194, 255, 255);
+
+}
+#optionSet1{
+    display:grid;
+   grid-template-columns: repeat(2, 6.5em);
+   position:fixed;
+   right:0  
+   }
+  
+   
+#optionSet2{
+    position:fixed;
+    bottom: 60px;
+    overflow: hidden;
+    
+    
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100px; height: 100px;
+    font-size: 1.3em;
+    background-color: rgb(174, 255, 255);
+    border-radius: 10px;
+
+    }
+#price{
+    position:fixed;
+    bottom:60px;
+    right:10px;
+    width: 500px; height: 100px;
+    font-size: 5em;
+    background-color: rgb(255, 255, 255);
+    border-style: none; 
+    text-align: right;   
+    overflow: visible;
+    }
+table{
+    width:80%
+}
+
+#table td, #table th{
+    border: 1px solid #000000;
+    padding: 3px;
+      }
+#barCodeReader{
+    position:fixed;
+    bottom: 25%;
+    left:0;
+    width: 500px; height: 50px;
+    font-size: 2em;    
+}
+
+#button1{
+width:100%;
+}
