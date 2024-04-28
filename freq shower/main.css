@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(214, 214, 151);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+
+}
+#freqEntry{
+    border-radius: 7px;
+    border-color: rgb(214, 214, 151);        
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#BTNfreqEntry{
+    border-radius: 4px;
+    border-color: rgb(214, 214, 151);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(214, 214, 151);
+}
